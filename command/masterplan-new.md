@@ -1,3 +1,7 @@
+---
+description: Create comprehensive masterplans for complex, multi-stage initiatives
+---
+
 ## Purpose
 
 Create a **comprehensive masterplan** for complex, multi-stage, or cross-repository initiatives that require detailed coordination, phased deployment, and thorough risk management.

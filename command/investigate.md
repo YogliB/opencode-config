@@ -1,3 +1,7 @@
+---
+description: Debug and investigate issues through systematic analysis
+---
+
 # Investigate Command
 
 ## Purpose

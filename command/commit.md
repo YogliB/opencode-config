@@ -1,3 +1,8 @@
+---
+description: Create conventional commits with auto-generated titles
+agent: build
+---
+
 ## Purpose
 
 Create a commit that fully complies with Conventional Commit Guidelines, using auto-generated titles based on branch name and file changes.
@@ -15,7 +20,6 @@ Create a commit that fully complies with Conventional Commit Guidelines, using a
 2. **Extract commit context**
 
    - Get current branch name via `git rev-parse --abbrev-ref HEAD`
-   - Extract JIRA ID (pattern: `[A-Z]+-\d+`)
    - Infer type and optional scope:
 
      - `src/api` → `feat(api)`
@@ -33,9 +37,9 @@ Create a commit that fully complies with Conventional Commit Guidelines, using a
 3. **Build commit title**
 
    - Format:
-     `JIRA_ID: type(scope) description`
+     `type(scope) description`
    - Example:
-     `CP-1234: feat(api) add JWT authentication`
+     `feat(api) add JWT authentication`
 
 4. **Validate**
 
@@ -58,5 +62,5 @@ Create a commit that fully complies with Conventional Commit Guidelines, using a
 ### Example Output
 
 ```
-✅ Committed: CP-2345: fix(api) handle null values in response
+✅ Committed: fix(api) handle null values in response
 ```

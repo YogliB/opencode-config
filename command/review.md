@@ -1,3 +1,7 @@
+---
+description: Review code changes, plans, or documentation and provide actionable recommendations
+---
+
 # Review Command
 
 ## Purpose

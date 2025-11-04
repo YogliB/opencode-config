@@ -1,3 +1,7 @@
+---
+description: Create highly actionable and detailed plans with comprehensive TODO lists
+---
+
 # Planning Rules
 
 ## Purpose

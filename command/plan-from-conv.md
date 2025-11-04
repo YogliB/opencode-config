@@ -1,3 +1,7 @@
+---
+description: Convert conversation into a clear planning prompt for Plan Mode
+---
+
 ## Purpose
 
 Convert the active conversation (tasks, findings, and conclusions) into a clear planning prompt for the agent — suitable for Plan Mode execution.
@@ -10,7 +14,7 @@ Convert the active conversation (tasks, findings, and conclusions) into a clear 
 
 ## Output Requirements
 
-- **Title** – concise summary of the conversation’s main goal or task.
+- **Title** – concise summary of the conversation's main goal or task.
 - **Context** – distilled key details, findings, or decisions from the discussion.
 - **Objective** – what the plan should achieve next.
 - **Constraints** – any known limitations, assumptions, or rules.

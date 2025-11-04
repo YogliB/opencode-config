@@ -1,3 +1,7 @@
+---
+description: Update existing pull request title and description using GitHub CLI
+---
+
 ## Purpose
 
 Update an existing pull request's title and description to reflect the current branch state, using the GitHub CLI and following team conventions. Smart merge preserves manual additions while regenerating template sections with current data.
@@ -7,7 +11,7 @@ Update an existing pull request's title and description to reflect the current b
 1. **Check current branch**
 
    - If on `main` or `master`, stop and alert:
-     _"You’re on the main branch — switch to a feature branch to update a PR."_
+     _"You're on the main branch — switch to a feature branch to update a PR."_
 
 2. **Handle uncommitted changes**
 

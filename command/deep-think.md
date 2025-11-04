@@ -1,3 +1,8 @@
+---
+description: Use sequential thinking for complex, step-by-step reasoning
+agent: general
+---
+
 # Deep Think Command
 
 **Instructions:**

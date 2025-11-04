@@ -1,3 +1,7 @@
+---
+description: Suggest viable alternative approaches for code, plans, or designs
+---
+
 ## Purpose
 
 Suggest **viable alternative approaches** for the given context — code, plan, or design.

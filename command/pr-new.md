@@ -1,3 +1,7 @@
+---
+description: Create pull request from current branch using GitHub CLI
+---
+
 ## Purpose
 
 Create a pull request from the current Git branch using the GitHub CLI, following team conventions and ensuring commits comply with the Conventional Commit format.
@@ -7,7 +11,7 @@ Create a pull request from the current Git branch using the GitHub CLI, followin
 1. **Check current branch**
 
    - If on `main` or `master`, stop and alert:
-     _"You’re on the main branch — switch to a feature branch to open a PR."_
+     _"You're on the main branch — switch to a feature branch to open a PR."_
 
 2. **Handle uncommitted changes**
 

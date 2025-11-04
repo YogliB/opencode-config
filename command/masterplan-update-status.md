@@ -1,7 +1,11 @@
+---
+description: Update all status references for a PR in a masterplan markdown file
+---
+
 ## Purpose
 
 Update **all status references** for a given PR in a masterplan markdown file, ensuring consistency across the entire document.
-If a new status is **not provided**, infer it automatically from the GitHub PR state using the **GitHub CLI**.
+If a new status **is not provided**, infer it automatically from the GitHub PR state using the **GitHub CLI**.
 
 ## Behavior
 
