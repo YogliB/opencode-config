@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "fetch": {
+      "command": ["docker", "run", "-i", "--rm", "mcp/fetch"],
+      "type": "local"
+    },
+    "gh_grep": {
+      "type": "remote",
+      "url": "https://mcp.grep.app"
+    },
+    "playwright": {
+      "command": ["docker", "run", "-i", "--rm", "mcp/playwright"],
+      "type": "local"
+    },
+    "sequentialthinking": {
+      "command": ["docker", "run", "-i", "--rm", "mcp/sequentialthinking"],
+      "type": "local"
+    }
+  }
+}
