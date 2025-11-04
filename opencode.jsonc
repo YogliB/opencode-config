@@ -21,5 +21,6 @@
       "command": ["docker", "run", "-i", "--rm", "mcp/sequentialthinking"],
       "type": "local"
     }
-  }
+  },
+  "instructions": [".ai/rules/**/AGENTS.md"]
 }
