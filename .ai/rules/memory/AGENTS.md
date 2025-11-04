@@ -67,7 +67,7 @@ PB --> TC[techContext.md]
 
 ### Additional Context
 
-Create additional files/folders within `.cursor/rules/memory-bank/` when they help organize:
+Create additional files/folders within `memory-bank/` when they help organize:
 
 - Complex feature documentation
 - Integration specifications
